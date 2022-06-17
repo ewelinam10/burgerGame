@@ -1,0 +1,50 @@
+.curve{
+  //display:inline-flex;
+  border-radius: 0px 0px 50px 50px;
+  //border-bottom: 3px solid rgb(228, 228, 228) ;
+ // border-right: 3px solid white ; // why the child is cover the parent?
+  width:12px;
+  margin-right:50px;
+  &:last-child{
+    margin-right: 0px;
+  }
+  height:40px;
+  background-color: inherit;
+  z-index:2;
+  &.small{
+  }
+ 
+  &.large{
+    height:80px;
+    animation-name: pouring-sauce-large;
+}
+animation-name: pouring-sauce-small;
+animation-duration: 3s;
+animation-delay: 2s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-direction: alternate;
+}
+
+#sauce {
+    z-index: 5;
+    height: 5px;
+    display: flex;
+    border-radius:10px;
+    .curve:first-child{
+      margin-left:25px;
+    }
+  }
+
+  @keyframes pouring-sauce-small {
+    0% {height: 40px;}
+    50% {height: 80px;}
+    75% {height: 60px;}
+    100% {height: 80px;}
+  }
+  @keyframes pouring-sauce-large {
+    0% {height: 80px;}
+    50% {height: 60px;}
+    75% {height: 40px;}
+    100% {height: 60px;}
+  }

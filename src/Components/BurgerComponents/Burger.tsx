@@ -6,12 +6,13 @@ import Onion from "./Onion";
 import Tomato from "./Tomato";
 import TopBun from "./TopBun";
 import './../../styles/burger.scss'
-import Ketchup from "./Ketchup";
+import Sauce, { RangeType } from "./Sauce";
 export default function Burger() {
     return (
         <div className='burger_box'>
             <TopBun />
-            <Ketchup />
+            <Sauce color="#f00" numberOfCurvyLines={3} order={RangeType.First} />
+            <Sauce color="#fffb0a" numberOfCurvyLines={3} order={RangeType.Second} />
             <Lettuce />
             <Tomato />
             <Onion />
