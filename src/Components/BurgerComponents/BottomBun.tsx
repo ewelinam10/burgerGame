@@ -22,5 +22,6 @@ function getIntervalToSetWarmBun(isWarm: boolean, setIsWarmState: Function) {
         }
     }, 3000)
 }
+//
 
 export default BottomBun;
