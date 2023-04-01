@@ -1,12 +1,12 @@
-import Beef from "./components/beef/Beef";
-import BottomBun from "./components/bottom-bun/BottomBun";
-import Cheese from "./components/cheese/Cheese";
-import Lettuce from "./components/lettuce/Lettuce";
-import Onion from "./components/onion/Onion";
-import Tomato from "./components/tomato/Tomato";
-import TopBun from "./components/top-bun/TopBun";
+import Beef from "./components/beef/beef.component";
+import BottomBun from "./components/bottom-bun/bottom.bun";
+import Cheese from "./components/cheese/cheese.component";
+import Lettuce from "./components/lettuce/lettuce";
+import Onion from "./components/onion/onion.component";
+import Tomato from "./components/tomato/tomato.component";
+import TopBun from "./components/top-bun/top.bun.component";
 import './../../styles/burger.scss'
-import Sauce, {RangeType} from "./components/sauce/Sauce";
+import Sauce, {RangeType} from "./components/sauce/sauce.component";
 
 export default function Burger() {
     return (

@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import '../../../../styles/bottomBun.scss'
+import {BottomBunStyled} from "./bottom-bun.style";
 
 const BottomBun = () => {
     const [isWarm, setIsWarmState] = useState<boolean>(true);
@@ -8,8 +8,8 @@ const BottomBun = () => {
     //     return () => { clearInterval(interval) };
     // });
     return (
-        <div id="bottom-bun">
-        </div>
+        <BottomBunStyled>
+        </BottomBunStyled>
     );
 };
 

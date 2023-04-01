@@ -1,11 +1,11 @@
 import React from 'react';
-import "../../../../styles/beef.scss"
+import {BeefStyled} from "./beef.style";
 
 const Beef = () => {
     return (
-        <div id="beef">
+        <BeefStyled>
 
-        </div>
+        </BeefStyled>
     );
 };
 

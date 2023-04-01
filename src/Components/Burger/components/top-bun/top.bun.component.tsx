@@ -1,11 +1,11 @@
 import React from 'react';
-import "../../../../styles/topBun.scss"
+import {TopBunStyled} from "./top-bun.style";
 
 const TopBun = () => {
     return (
-        <div id="top-bun">
+        <TopBunStyled>
 
-        </div>
+        </TopBunStyled>
     );
 };
 

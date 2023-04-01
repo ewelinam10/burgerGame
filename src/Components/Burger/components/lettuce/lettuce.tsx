@@ -1,11 +1,11 @@
 import React from 'react';
-import '../../../../styles/lettuce.scss'
+import {LettuceStyled} from "./lettuce.style";
 
 const Lettuce = () => {
     return (
-        <div id="lettuce">
+        <LettuceStyled>
 
-        </div>
+        </LettuceStyled>
     );
 };
 

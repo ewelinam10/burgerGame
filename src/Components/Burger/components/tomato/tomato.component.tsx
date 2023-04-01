@@ -1,11 +1,11 @@
 import React from 'react';
-import '../../../../styles/tomato.scss'
+import {TomatoStyled} from "./tomato.style";
 
 const Tomato = () => {
     return (
-        <div id="tomato">
+        <TomatoStyled>
 
-        </div>
+        </TomatoStyled>
     );
 };
 
