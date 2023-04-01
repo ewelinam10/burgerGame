@@ -8,8 +8,10 @@
  After every match of burger in play area with model burger user gets the score depending on how quickly she/he would do it.
  On higher levels chef gets more complicated burgers or even some drinks, and sets with fries.
  Diffrent levels are some kind of becoming the best burger chef in the world from shitty intern.
+      <img src="readmeimage.gif" width=100% height="auto" />
  </h4>
 
-    ![](readmeimage.gif)
+
+    
  
 </div>
