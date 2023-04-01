@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import './../../styles/bottomBun.scss'
+import '../../../../styles/bottomBun.scss'
 
 const BottomBun = () => {
     const [isWarm, setIsWarmState] = useState<boolean>(true);

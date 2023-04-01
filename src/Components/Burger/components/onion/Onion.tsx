@@ -1,5 +1,6 @@
 import React from 'react';
-import '../../styles/onion.scss'
+import '../../../../styles/onion.scss'
+
 const Onion = () => {
     return (
         <div id="onion">

@@ -1,5 +1,6 @@
 import React from 'react';
-import "./../../styles/topBun.scss"
+import "../../../../styles/topBun.scss"
+
 const TopBun = () => {
     return (
         <div id="top-bun">

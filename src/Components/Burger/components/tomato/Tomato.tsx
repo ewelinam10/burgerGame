@@ -1,5 +1,6 @@
 import React from 'react';
-import '../../styles/tomato.scss'
+import '../../../../styles/tomato.scss'
+
 const Tomato = () => {
     return (
         <div id="tomato">

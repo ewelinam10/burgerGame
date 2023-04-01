@@ -1,10 +1,12 @@
 import React from 'react';
-import '../../styles/sauce.scss'
+import '../../../../styles/sauce.scss'
+
 type SauceProps = {
     color: string;
     numberOfCurvyLines: number;
     order: RangeType;
 }
+
 export enum RangeType {
     First,
     Second,
@@ -13,6 +15,7 @@ export enum RangeType {
 
 export default class Sauce extends React.Component<SauceProps> {
     private lines: JSX.Element[] = [];
+
     constructor(props: SauceProps) {
         super(props);
         this.makeCurvyLinesOfSauce(props.numberOfCurvyLines);
@@ -23,11 +26,12 @@ export default class Sauce extends React.Component<SauceProps> {
 
 
         return (
-            <div id="sauce" onClick={this.onClickSauce} style={{ backgroundColor: this.props.color }}>
+            <div id="sauce" onClick={this.onClickSauce} style={{backgroundColor: this.props.color}}>
                 {this.lines}
             </div>
         );
     }
+
     makeCurvyLinesOfSauce(linesCount: number) {
         let curveLine;
         let margin = 7;
@@ -39,7 +43,7 @@ export default class Sauce extends React.Component<SauceProps> {
 
         for (let i = 0; i < linesCount; i++) {
             if (i === 0) {
-                curveLine = <div className='curve small' style={{ marginLeft: `${margin}px` }}></div>;
+                curveLine = <div className='curve small' style={{marginLeft: `${margin}px`}}></div>;
             } else {
                 curveLine = <div className='curve small'></div>;
             }

@@ -1,14 +1,14 @@
 import React from "react";
-import BeefButton from "../Add-Button/Components/Burger/beef-button.component";
-import OnionButton from "../Add-Button/Components/Burger/onion-button.component";
-import LetucceButton from "../Add-Button/Components/Burger/lettuce-button.component";
-import CheeseButton from "../Add-Button/Components/Burger/cheese-button.component";
-import TopBunButton from "../Add-Button/Components/Burger/top-bun-button.component";
-import BottomBunButton from "../Add-Button/Components/Burger/bottom-bun-button.component";
-import TomatoButton from "../Add-Button/Components/Burger/tomato-button.component";
-import KetchupButton from "../Add-Button/Components/Sauces/ketchup-button.component";
+import BeefButton from "./Burger/beef-button/beef-button.component";
+import OnionButton from "./Burger/onion-button/onion-button.component";
+import LetucceButton from "./Burger/lettuce-button/lettuce-button.component";
+import CheeseButton from "./Burger/cheese-button/cheese-button.component";
+import TopBunButton from "./Burger/top-bun-button/top-bun-button.component";
+import BottomBunButton from "./Burger/bottom-bun-button/bottom-bun-button.component";
+import TomatoButton from "./Burger/tomato-button/tomato-button.component";
+import KetchupButton from "./Sauces/ketuchp-button/ketchup-button.component";
 import {Grid} from "@mui/material";
-import MustardButton from "../Add-Button/Components/Sauces/mustard-button.component";
+import MustardButton from "./Sauces/mustard-button/mustard-button.component";
 
 
 const IngridentsMenu: React.FC = () => {

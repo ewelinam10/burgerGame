@@ -1,6 +1,6 @@
 import React from 'react';
 
-import AddButton from "../../AddButton.component";
+import AddButton from "../../add-button/AddButton.component";
 
 const LetucceButton = () => {
     return (
