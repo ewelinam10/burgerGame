@@ -9,7 +9,7 @@
  On higher levels chef gets more complicated burgers or even some drinks, and sets with fries.
  Diffrent levels are some kind of becoming the best burger chef in the world from shitty intern.
  </h4>
-  [![2023-04-01_12h01_49.gif](https://s10.gifyu.com/images/2023-04-01_12h01_49.gif)](https://gifyu.com/image/SI5dT)
 
+    
  
 </div>
