@@ -18,7 +18,7 @@ const AddButton: React.FC<IAddButtonProps> = ({title, bgColor, shape = 'square'}
 
 const StyledAddButton = styled(Button)<IAddButtonProps>`
   padding: 32px;
-  background-color: ${({bgColor}) => bgColor}; //or  #{props=> props.bgcolor) 
+  background-color: ${({bgColor}) => bgColor}; //or  #{props=> props.bgcolor ) 
   font-size: 24px;
 
   border-radius: ${(props) => {
